@@ -1,22 +1,5 @@
 <template>
   <div class="video-uploader flex flex-col h-full">
-    <!-- Tab切换 -->
-    <div class="flex border-b border-gray-100">
-      <button 
-        class="py-3 px-6 text-blue-600 font-medium focus:outline-none relative" 
-        @click="activeTab = 'video'"
-      >
-        上传视频
-        <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600"></div>
-      </button>
-      <button 
-        class="py-3 px-6 text-gray-400 font-medium focus:outline-none relative opacity-50" 
-        @click="activeTab = 'image'"
-      >
-        上传图片
-      </button>
-    </div>
-
     <!-- 主内容区 -->
     <div class="flex-1 p-5 overflow-auto">
       <div class="flex justify-start mb-5">
