@@ -1,0 +1,32 @@
+{
+  "name": "video-upload-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:https": "nuxt dev --https",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "start": "nuxt start",
+    "dev:development": "NODE_ENV=development nuxt dev --https",
+    "dev:test": "NODE_ENV=test nuxt dev --https",
+    "dev:staging": "NODE_ENV=staging nuxt dev --https",
+    "dev:production": "NODE_ENV=production nuxt dev --https"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "nuxt": "^3.10.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@types/node": "^20.11.25",
+    "@types/uuid": "^10.0.0",
+    "daisyui": "^4.7.2",
+    "defu": "^6.1.4",
+    "h3": "^1.11.1",
+    "mkcert": "^3.2.0",
+    "typescript": "^5.4.2"
+  }
+}
